@@ -1,0 +1,437 @@
+{
+  "checked_at": "2026-10-29",
+  "products": [
+    {
+      "slug": "chatgpt",
+      "name": "ChatGPT",
+      "maker": "OpenAI",
+      "tagline": "OpenAI's general assistant with tools, files, voice and images",
+      "official_url": "https://chatgpt.com",
+      "platforms": ["Web", "iOS", "Android", "macOS", "Windows", "Linux"],
+      "free_tier": true,
+      "price_note": "Free $0; Go $8/mo; Plus $20/mo; Pro $100 / $200 / $500/mo; Business $20/seat/mo billed annually ($25 monthly, 2 seats minimum) (checked 2026-10-29)",
+      "context_window": "1,050,000 tokens on GPT-6 Astra (922K max input, 128K max output); GPT-6.1 Sol inside ChatGPT Work defaults to 500K (checked 2026-10-29)",
+      "language_note": "Officially multilingual across all models; a third-party Chinese arena board puts GPT-6 Astra at rank 68 with 1489 points (checked 2026-10-29)",
+      "availability_note": "Not officially available in mainland China, Hong Kong or Macau, and there is no China edition, so a proxy or VPN is needed (checked 2026-10-29).",
+      "strengths": [
+        "Largest plugin and integration ecosystem of any chat assistant",
+        "Reads images, spreadsheets and PDFs inside one conversation thread",
+        "Desktop apps cover macOS, Windows and Linux, not just the browser",
+        "Deep Research and agent tasks run without leaving the chat window"
+      ],
+      "weaknesses": [
+        "Blocked in mainland China without a proxy or VPN",
+        "Free tier carries ads and daily usage caps",
+        "Pro tiers cost $100 to $500 per month"
+      ],
+      "best_for": [
+        "All-round daily office work and drafting",
+        "People who depend on third-party plugins",
+        "Cross-border teams already working inside its interface"
+      ],
+      "usage_note": "I open it as the first stop: ask a question to map the options, then paste the draft I need rewritten. What actually saves time are the built-in tools, because a spreadsheet dropped in gets calculated, a screenshot gets read, and a rambled voice note comes back as a to-do list. What annoys me is length. Answers run two or three paragraphs past what I asked, so I spend follow-up turns narrowing them, and on the free tier the ads sit between those turns.",
+      "sources": [
+        "https://learn.chatgpt.com/docs/pricing",
+        "https://developers.openai.com/api/docs/models/gpt-6-astra.md",
+        "https://developers.openai.com/api/docs/supported-countries.md",
+        "https://readaitime.com/llm/quality/chinese"
+      ],
+      "uncertain": ["language_note (third-party arena board only)"]
+    },
+    {
+      "slug": "claude",
+      "name": "Claude",
+      "maker": "Anthropic",
+      "tagline": "Anthropic's assistant built for long documents and code edits",
+      "official_url": "https://claude.com",
+      "platforms": ["Web", "iOS", "Android", "macOS", "Windows"],
+      "free_tier": true,
+      "price_note": "Free $0; Pro $20/mo ($17/mo on annual billing, $200 up front); Max $100-$200/mo; Team $20/seat/mo annual ($25 monthly); Enterprise $20/seat/mo from 20 seats (checked 2026-10-29)",
+      "context_window": "Up to 1M tokens, varying with the selected model (checked 2026-10-29)",
+      "language_note": null,
+      "availability_note": "No mainland China edition; reaching it from there needs a proxy or VPN (checked 2026-10-29).",
+      "strengths": [
+        "Keeps a long PDF or repository coherent across many follow-up turns",
+        "Artifacts write files you can download and reuse as-is",
+        "Claude Code edits an existing repository without rewriting untouched files",
+        "Follows the outline you supply instead of inventing its own"
+      ],
+      "weaknesses": [
+        "Free tier runs out of messages halfway through real work",
+        "Rate limits tighten during peak hours",
+        "Needs a proxy to reach from mainland China"
+      ],
+      "best_for": [
+        "Long-document analysis and report writing",
+        "Engineering teams editing shared code",
+        "Researchers working through dense papers"
+      ],
+      "usage_note": "Two jobs stop feeling like babysitting. Long documents: hand it a sixty-page PDF and ask about one paragraph, and it answers that paragraph instead of wandering off. Code edits: give it a file and it follows your structure, leaving the parts you never mentioned alone. Writing holds my outline better than most tools I have tried. The cost is quota, because heavy sessions burn through limits, so I plan the expensive requests and keep the small ones for later.",
+      "sources": [
+        "https://claude.com/pricing",
+        "https://claude.com/download"
+      ],
+      "uncertain": ["language_note (no verified Chinese-quality score)"]
+    },
+    {
+      "slug": "gemini",
+      "name": "Gemini",
+      "maker": "Google",
+      "tagline": "Google's assistant wired into Gmail, Docs and Search",
+      "official_url": "https://gemini.google.com",
+      "platforms": ["Web", "iOS", "Android", "macOS", "Windows"],
+      "free_tier": true,
+      "price_note": "Google AI Pro $19.99/mo ($199.99/yr); Google AI Ultra $99.99/mo; Google AI Plus $7.99/mo (third-party figure) (checked 2026-10-29)",
+      "context_window": "1M tokens (Gemini 4 Argon unified context; Pro models take 1M input and 64K output) (checked 2026-10-29)",
+      "language_note": "Official language list includes Simplified, Traditional and Hong Kong Chinese; a third-party Chinese arena board places Gemini 4 Argon at rank 1 with 1600 points (checked 2026-10-29)",
+      "availability_note": "Personal accounts are not open in mainland China, where only Workspace accounts work, and there is no China edition (checked 2026-10-29).",
+      "strengths": [
+        "Cites source links you can open and check yourself",
+        "Reads and writes Gmail, Docs and Sheets without exporting files",
+        "Takes 1M-token inputs such as hour-long recordings and slide decks",
+        "Free tier limits are looser than most competing assistants"
+      ],
+      "weaknesses": [
+        "Plan names get renamed often enough to be hard to track",
+        "Some features only open to US accounts",
+        "Personal accounts are unavailable in mainland China"
+      ],
+      "best_for": [
+        "Heavy Google Workspace users",
+        "Multimodal and video generation work",
+        "Very long source material"
+      ],
+      "usage_note": "I go to it when the point is checking rather than trusting: ask a contested question and the reply carries source links, so verifying costs a minute of clicking. Gmail and Docs integration means I stop shuttling files around, since the answer lands where the work already is. Long audio and slide decks get read directly, which is where it pulls ahead. Chinese phrasing still reads translated, so Chinese drafts go to another tool.",
+      "sources": [
+        "https://deepmind.google/models/gemini/pro/",
+        "https://one.google.com/about/google-ai-plans",
+        "https://support.google.com/gemini/answer/13575153",
+        "https://ai.google.dev/gemini-api/docs/models",
+        "https://readaitime.com/llm/quality/chinese"
+      ],
+      "uncertain": [
+        "price_note (AI Plus tier, and whether a separate $200 Ultra tier exists, not confirmed on official pages)",
+        "language_note (third-party arena board only)"
+      ]
+    },
+    {
+      "slug": "grok",
+      "name": "Grok",
+      "maker": "xAI",
+      "tagline": "xAI's assistant with a live X feed and 500K context",
+      "official_url": "https://grok.com",
+      "platforms": ["Web", "iOS", "Android"],
+      "free_tier": true,
+      "price_note": "X Subscription: Free $0; Plus $8/mo; Premium $30/mo; Super $100/mo; Ultra $200/mo (annual billing discounted) (checked 2026-10-29)",
+      "context_window": "500K tokens (grok-4.7) (checked 2026-10-29)",
+      "language_note": null,
+      "availability_note": "No mainland China edition; reaching it from there needs a proxy or VPN (checked 2026-10-29).",
+      "strengths": [
+        "Reads live X posts and groups how a topic is argued",
+        "Answers with the conclusion first instead of a preamble",
+        "500K context fits long threads and transcripts in one pass",
+        "Four paid tiers make the price ladder easy to follow"
+      ],
+      "weaknesses": [
+        "States guesses in the same tone as confirmed facts",
+        "Chinese output reads noticeably less natural than English",
+        "Content style draws frequent complaints from users"
+      ],
+      "best_for": [
+        "Tracking overseas reaction while it happens",
+        "English technical questions",
+        "X creators who post all day"
+      ],
+      "usage_note": "For real-time argument it is the only one that works: ask how a topic split on X over two days and it reads the actual posts, then groups the positions. The style is blunt, which I want when I need an answer and not courtesies. That same bluntness is the risk, because a guess gets phrased the way a confirmed fact gets phrased, so anything factual goes through a second source before I repeat it.",
+      "sources": [
+        "https://docs.x.ai/x-subscription/pricing",
+        "https://docs.x.ai/developers/models"
+      ],
+      "uncertain": [
+        "language_note (no verified Chinese-quality score)",
+        "platforms (client list not confirmed app by app on official pages)"
+      ]
+    },
+    {
+      "slug": "deepseek",
+      "name": "DeepSeek",
+      "maker": "DeepSeek (Hangzhou DeepSeek Artificial Intelligence)",
+      "tagline": "Open-weight reasoning model with very low API prices",
+      "official_url": "https://chat.deepseek.com",
+      "platforms": ["Web", "iOS", "Android", "macOS", "Windows"],
+      "free_tier": true,
+      "price_note": "Web and app free; API list price deepseek-flash CNY 1 / 2 per million input tokens (off-peak / peak) and CNY 4 / 8 output; deepseek-v4-pro CNY 4.5 / 9 input and CNY 13.5 / 27 output (checked 2026-10-29)",
+      "context_window": "1M tokens of context; up to 384K tokens of output (checked 2026-10-29)",
+      "language_note": "Native Chinese product with complete Chinese documentation, and Chinese Q&A plus writing are its main use (checked 2026-10-29)",
+      "availability_note": "Directly reachable inside mainland China with no proxy, and a China edition exists (checked 2026-10-29).",
+      "strengths": [
+        "Publishes open weights you can download and self-host",
+        "Per-token API prices sit far below US providers",
+        "Reasoning and code output hold up on hard problems",
+        "Handles Chinese and English at roughly the same level"
+      ],
+      "weaknesses": [
+        "Almost no multimodal support for images or audio",
+        "Response times wobble during Chinese peak hours",
+        "Plugin and integration ecosystem stays thin"
+      ],
+      "best_for": [
+        "Budget-sensitive developers",
+        "Chinese writing and translation",
+        "Private or on-premise deployment"
+      ],
+      "usage_note": "Free, good enough, and honest about math and code, which keeps it in my tab bar. Derivations and quick scripts land without much back-and-forth. Anything visual fails: no reading screenshots, nothing useful for audio, so those go to another tool. On Chinese evenings the stream stalls for tens of seconds and I switch tasks. Small thing I appreciate is that the code comments it writes are usable, so I do not have to add them.",
+      "sources": [
+        "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+        "https://www.deepseek.com"
+      ],
+      "uncertain": [
+        "language_note (no third-party Chinese score)",
+        "platforms (desktop build is the Harness desktop app; Windows version not confirmed separately)"
+      ]
+    },
+    {
+      "slug": "doubao",
+      "name": "Doubao",
+      "maker": "ByteDance",
+      "tagline": "ByteDance's free Chinese assistant, voice and images first",
+      "official_url": "https://www.doubao.com",
+      "platforms": ["Web", "iOS", "Android", "macOS"],
+      "free_tier": true,
+      "price_note": "Core features free; paid tiers CNY 68/mo (CNY 688/yr), CNY 200/mo (CNY 2,048/yr) and CNY 500/mo (CNY 5,088/yr) (checked 2026-10-29)",
+      "context_window": "1M tokens (doubao-seed-2.1-pro; Volcano Ark prices 0-1024K input in bands) (checked 2026-10-29)",
+      "language_note": "Native Chinese interface, documentation and voice interaction, with spoken-style replies that need no prompt tuning (checked 2026-10-29)",
+      "availability_note": "Directly reachable in mainland China with no proxy, and a China edition exists (checked 2026-10-29).",
+      "strengths": [
+        "Free tier already covers daily chat, search and images",
+        "Voice conversation and photo recognition work well on a phone",
+        "Short-form scripts match the tone of Douyin content",
+        "Onboarding needs no setup, sign-in dance or configuration step"
+      ],
+      "weaknesses": [
+        "Professional document work sits behind the paid tiers",
+        "Desktop build does less than the mobile app",
+        "Long-document handling drifts past a few rounds of follow-up"
+      ],
+      "best_for": [
+        "Everyday questions and spoken practice",
+        "Short-video and Douyin scripts",
+        "Students and light office tasks"
+      ],
+      "usage_note": "Its advantage is that nothing stands between me and a question: open the app, speak, get an answer in a tone that sounds like a person talking. Photo recognition is accurate enough that I use it on labels in shops. Short-video scripts come out closest to how people actually speak. Where it falls down is follow-up, because push a long document through five rounds and it starts contradicting what it said two rounds earlier.",
+      "sources": [
+        "https://www.doubao.com",
+        "https://www.volcengine.com/docs/82379/1330310",
+        "https://www.volcengine.com/docs/82379/1099320",
+        "https://www.163.com/dy/article/KS3QMJ0N05118DFD.html",
+        "https://m.21jingji.com/article/20260708/herald/68598f1da803b389fb4a851ba8fda07d.html"
+      ],
+      "uncertain": [
+        "price_note (CNY 68/200/500 tiers come from press reports; the official pricing page was unreachable)",
+        "platforms (Windows desktop build not confirmed)",
+        "language_note (no third-party Chinese score)"
+      ]
+    },
+    {
+      "slug": "kimi",
+      "name": "Kimi",
+      "maker": "Moonshot AI",
+      "tagline": "Moonshot's assistant built around 1M-token reading",
+      "official_url": "https://www.kimi.com",
+      "platforms": ["Web", "iOS", "Android"],
+      "free_tier": true,
+      "price_note": "Membership annual plans work out to CNY 39 / 79 / 159 / 559 / 1,119 per month, alongside a free tier; API K3.1 Pro CNY 13 input and CNY 68 output per million tokens (CNY 1.3 on cache hits) (checked 2026-10-29)",
+      "context_window": "1,048,576 tokens (K3 series); 262,144 tokens on the K2 series (checked 2026-10-29)",
+      "language_note": "Chinese-first product where interface, docs and marketing all lead with Chinese, and long Chinese documents are the core use case (checked 2026-10-29)",
+      "availability_note": "Directly reachable in mainland China with no proxy, and platform.kimi.com serves the China region (checked 2026-10-29).",
+      "strengths": [
+        "Swallows a whole book and answers against the full text",
+        "Agent tasks and deep research run inside the same window",
+        "Chinese long-document structuring beats most rivals I have tried",
+        "Five membership tiers make the ladder easy to pick from"
+      ],
+      "weaknesses": [
+        "Concurrency limits bite at Chinese peak times",
+        "No desktop client beyond the browser, so tabs pile up",
+        "Free tier quota runs out before heavy work finishes"
+      ],
+      "best_for": [
+        "Reading long reports and papers",
+        "Organizing Chinese source material",
+        "Light agent and research tasks"
+      ],
+      "usage_note": "Long material is what I keep it for: a book, a contract, a folder of meeting notes goes in at once and comes back in whatever structure I ask for. Coding and file cleanup sit in the same window, so I do not switch products mid-task. The free quota ends before the heavy read finishes, so I save it for a paid month. Peak-hour queueing is the one thing that regularly interrupts me.",
+      "sources": [
+        "https://www.kimi.com/resources/kimi-k3-1-pro-pricing",
+        "https://platform.kimi.com/docs/pricing/chat",
+        "https://platform.moonshot.cn/docs/pricing/chat"
+      ],
+      "uncertain": [
+        "platforms (desktop client not confirmed)",
+        "language_note (no third-party Chinese score)"
+      ]
+    },
+    {
+      "slug": "qwen",
+      "name": "Qwen",
+      "maker": "Alibaba",
+      "tagline": "Alibaba's Qwen assistant with open weights and cloud APIs",
+      "official_url": "https://www.qianwen.com",
+      "platforms": ["Web", "iOS", "Android", "macOS", "Windows", "HarmonyOS PC"],
+      "free_tier": true,
+      "price_note": "Qianwen app free; API qwen3.8-max CNY 12 input and CNY 36 output per million tokens (Beijing region; CNY 1.5 on cache hits) (checked 2026-10-29)",
+      "context_window": "1,000,000 tokens (qwen3.8-max; 991,808 max input, 131,072 max output) (checked 2026-10-29)",
+      "language_note": "Native Chinese with complete Chinese docs, and Chinese and English quality stay close to each other (checked 2026-10-29)",
+      "availability_note": "Directly reachable in mainland China with no proxy, and a China edition exists (checked 2026-10-29).",
+      "strengths": [
+        "Balances Chinese and English quality on the same model",
+        "Table and office-document handling is the most complete here",
+        "Plugs into the Alibaba Cloud billing and IAM you already run",
+        "Open weights cover text, vision and audio variants"
+      ],
+      "weaknesses": [
+        "Web and app do not offer the same features",
+        "Membership and API billing are hard to keep straight",
+        "Occasional throttling during Chinese peak hours"
+      ],
+      "best_for": [
+        "Chinese office documents and tables",
+        "Teams already running on Alibaba Cloud",
+        "Developers calling a China-hosted model"
+      ],
+      "usage_note": "If we have to deploy something behind our own firewall, this is the realistic option, since weights are open, API docs are complete, and it bills through the Alibaba Cloud account we already run. Chat feels less smooth than Doubao, but formal Chinese such as policy drafts and internal rules comes out more stable. What I dislike is the split, because a feature exists in the app and not on the web, so I check both before promising anything.",
+      "sources": [
+        "https://help.aliyun.com/zh/model-studio/qwen3-8-max",
+        "https://www.qianwen.com",
+        "https://www.qianwen.com/download",
+        "https://apps.apple.com/cn/app/id6466733523"
+      ],
+      "uncertain": [
+        "price_note (no consumer membership page exists; CNY 12/36 are Bailian API list prices)",
+        "language_note (no third-party Chinese score)",
+        "platforms (Android build not confirmed separately)"
+      ]
+    },
+    {
+      "slug": "yuanbao",
+      "name": "Yuanbao",
+      "maker": "Tencent",
+      "tagline": "Tencent's free assistant tied into WeChat content",
+      "official_url": "https://yuanbao.tencent.com",
+      "platforms": ["Web", "iOS", "Android", "Desktop (PC)"],
+      "free_tier": true,
+      "price_note": "Every feature is free as of this check, including generating and downloading PPT, Word, Excel, PDF and HTML files; a July 2026 report said no paid plan was scheduled (checked 2026-10-29)",
+      "context_window": null,
+      "language_note": "Native Chinese interface and documentation, with office output following mainland formatting conventions (checked 2026-10-29)",
+      "availability_note": "Directly reachable in mainland China with no proxy, and a China edition exists (checked 2026-10-29).",
+      "strengths": [
+        "Agent-style office work, including file export, costs nothing",
+        "Pulls WeChat public-account articles in for summarizing",
+        "Generates and downloads PPT, Word, Excel and PDF files",
+        "Chinese conversation reads natural without any prompt engineering"
+      ],
+      "weaknesses": [
+        "Flagship model context window is not published",
+        "Deep reasoning quality stays unproven on hard tasks",
+        "Desktop coverage is the narrowest of the Chinese apps"
+      ],
+      "best_for": [
+        "Free PPT and spreadsheet generation",
+        "WeChat and public-account content",
+        "Students and light office work"
+      ],
+      "usage_note": "The use case is narrow and clear: it sits inside WeChat, so when a long public-account article lands in a group I hand it over and get a summary without leaving the chat. Two model families sit behind it, Hunyuan and DeepSeek, and for ordinary questions either is fine. Ask it to reason through something hard, or push a long document in, and quality drops, so that work goes elsewhere.",
+      "sources": [
+        "https://yuanbao.tencent.com",
+        "https://m.21jingji.com/article/20260708/herald/68598f1da803b389fb4a851ba8fda07d.html",
+        "https://apps.apple.com/cn/app/id6480446430"
+      ],
+      "uncertain": [
+        "context_window",
+        "price_note ('every feature free' comes from press reports; no official pricing page)",
+        "platforms (Windows vs Mac desktop split not confirmed)",
+        "language_note (no third-party Chinese score)"
+      ]
+    },
+    {
+      "slug": "copilot",
+      "name": "GitHub Copilot",
+      "maker": "GitHub (Microsoft)",
+      "tagline": "AI coding assistant that runs inside your editor",
+      "official_url": "https://github.com/features/copilot",
+      "platforms": ["Web", "IDE extensions (VS Code and others)", "CLI", "iOS", "Android"],
+      "free_tier": true,
+      "price_note": "Free $0; Pro $10/mo; Pro+ $39/mo; Max $100/mo; Business $19/seat/mo; Enterprise $39/seat/mo (checked 2026-10-29)",
+      "context_window": null,
+      "language_note": null,
+      "availability_note": "Needs a GitHub account, and github.com is unreliable from mainland China without a proxy; there is no China edition (checked 2026-10-29).",
+      "strengths": [
+        "Completion and edits happen in the editor, with no window switching",
+        "Reads repository context, so changes to old code land faster",
+        "Switches between several frontier models on each request",
+        "Enterprise controls cover seat policy, audit and central billing"
+      ],
+      "weaknesses": [
+        "Usage is metered in AI Credits, which is hard to forecast",
+        "Does almost nothing outside coding and pull requests",
+        "Review suggestions still catch compile errors a human must fix"
+      ],
+      "best_for": [
+        "Professional developers writing code daily",
+        "Team code review",
+        "Enterprise release pipelines"
+      ],
+      "usage_note": "The advantage is location, since suggestions appear where I type and I never leave the editor to ask a question. On an existing repository it finds the right file faster than I do, and that is where the minutes go. What I watch is overreach, because it sometimes rewrites a block I did not ask about and the build breaks, so I read diffs instead of accepting wholesale. Credit metering shows up on the bill in heavy months.",
+      "sources": [
+        "https://docs.github.com/en/copilot/get-started/plans"
+      ],
+      "uncertain": [
+        "context_window (varies by selected model; no single official figure)",
+        "language_note (no verified Chinese-quality score)",
+        "platforms (IDE and CLI surface not confirmed item by item)"
+      ]
+    },
+    {
+      "slug": "perplexity",
+      "name": "Perplexity",
+      "maker": "Perplexity AI",
+      "tagline": "Answer engine that cites sources on every reply",
+      "official_url": "https://www.perplexity.ai",
+      "platforms": ["Web", "iOS", "Android", "macOS", "Windows"],
+      "free_tier": true,
+      "price_note": "Free $0; Pro $20/mo ($200/yr); Max $200/mo ($2,000/yr); Education Pro $10/mo for verified students; Enterprise Pro $40/seat/mo; Enterprise Max $325/seat/mo (checked 2026-10-29)",
+      "context_window": null,
+      "language_note": null,
+      "availability_note": "Unreachable from mainland China without a proxy, confirmed by a blocked connection from this host on 2026-10-29, and there is no China edition.",
+      "strengths": [
+        "Every answer carries clickable source links you can audit",
+        "Pro Search runs several search passes before it answers",
+        "Weekly Pro Search and Deep Research allowances instead of daily caps",
+        "Model picker routes one question to OpenAI, Anthropic, Google or xAI"
+      ],
+      "weaknesses": [
+        "Free tier caps you at 3 Pro Searches a day",
+        "Pro and Max no longer bundle any API credits",
+        "Enterprise seat prices sit behind a sales conversation"
+      ],
+      "best_for": [
+        "Research where sources must be checkable",
+        "Fact-checking a claim quickly",
+        "Students who need citations"
+      ],
+      "usage_note": "I treat it as a lookup layer rather than a writing tool: ask a factual question, get a short answer with links, open two of them, done. That loop beats searching and reading five pages. Follow-ups are where it thins out, since it is built for one question at a time, so a long draft still goes to a chat product. On the free tier the three Pro Searches are gone before lunch.",
+      "sources": [
+        "https://www.perplexity.ai/pricing",
+        "https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you",
+        "https://www.cloudzero.com/blog/perplexity-pricing/",
+        "https://felloai.com/perplexity-pricing/"
+      ],
+      "uncertain": [
+        "price_note (perplexity.ai is unreachable from this host; figures come from two independent trackers whose stated source is the official plans page, read 15 Oct 2026 and Sep 2026)",
+        "context_window",
+        "language_note",
+        "platforms (desktop app coverage taken from a third-party guide)"
+      ]
+    }
+  ]
+}

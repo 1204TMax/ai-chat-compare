@@ -1,0 +1,244 @@
+{
+ "compare": [
+  {
+   "slug": "chatgpt-vs-grok",
+   "a": "ChatGPT",
+   "a_slug": "chatgpt",
+   "b": "Grok",
+   "b_slug": "grok",
+   "title": "ChatGPT vs Grok: which one to actually use",
+   "description": "ChatGPT vs Grok on free tier, pricing, long documents, coding, and live X data — plus which one to open for a given task.",
+   "verdict": "Take ChatGPT if you want one subscription that covers writing, files, voice, images, and light coding. Take Grok when the question is about something happening on X right now, or when you want an answer that does not soften its edges.\n\nBoth are general chat products with the same shape — text box, search mode, uploads, voice, an app — and the real difference is where the data and the tooling come from: Grok’s pipe runs straight through X.\n\nThe cheap test is a week of real questions: paste your actual work into both and see which one you stop correcting.",
+   "table": [
+    {
+     "label": "Free tier",
+     "a": "Free account with a daily cap on the main model, limited reasoning-mode calls, uploads and image generation included. Caps move on a rolling window and are revised often.",
+     "b": "Free access exists inside X with a low daily cap and a smaller model. Heavy use pushes you onto a paid X tier; the standalone app is more restricted than ChatGPT’s."
+    },
+    {
+     "label": "Pricing",
+     "a": "Free, a consumer Plus tier, a higher Pro tier, and separately billed API usage. Rates change; check the official pricing page before you budget.",
+     "b": "Tied to X subscription tiers plus a standalone paid plan and API billing. Whether it is cheap depends on your existing X bill; check the official pricing page."
+    },
+    {
+     "label": "Long documents",
+     "a": "Takes long PDFs, spreadsheets, and code files with per-file caps, and Projects keep reference material attached across chats so you are not re-uploading a brief every session.",
+     "b": "Accepts uploads and long pastes, but the product is built around conversation and live posts rather than documents. No persistent file library or project workspace."
+    },
+    {
+     "label": "Coding",
+     "a": "Strong on refactors, tests, and debugging across files you paste in, with an agent mode that runs code in a sandbox and iterates. Editor integration comes from third parties.",
+     "b": "Competent at single-file code and quick “why is this failing” reads. Weaker on multi-file repo work, and there is no first-party IDE agent to compare with Copilot."
+    },
+    {
+     "label": "Web/research",
+     "a": "Search mode with inline citations, plus a deep-research mode that runs a multi-step crawl and returns a structured report. The better default for sourced answers.",
+     "b": "Its edge: direct read on the X timeline, so breaking news, reactions, and what a specific account posted are available minutes after it goes up. Non-X search is thinner."
+    },
+    {
+     "label": "Best for",
+     "a": "People who want one tool for writing, documents, voice, images, and light coding, on both desktop and phone.",
+     "b": "People who live on X and need current sentiment, breaking news, or a second opinion that pushes back instead of agreeing."
+    }
+   ],
+   "when_a": "Pick ChatGPT when the work is a mix: a doc to rewrite, a PDF to pull numbers out of, a screenshot to explain, a recording to summarize, and a broken script to fix — all in one afternoon. Projects keep the client brief or the style guide attached across sessions, which is the difference between a tool and a chat window. Voice mode is usable for an actual conversation, and the mobile app is the same product rather than a cut-down client, so switching devices does not reset your context. If you are building anything on top, its API and integration ecosystem are the most documented of the four products in this comparison, and most third-party tools ship a ChatGPT connector first. It is the low-risk default for a person who needs one seat that works.",
+   "when_b": "Pick Grok when the answer depends on what people are saying today. It reads the X timeline directly, so asking what an account posted, how a launch landed in its first hour, or which of two competing claims is picking up traction gets an answer with the posts attached — a genuinely different data source, not a search wrapper. It is also less likely to add a hedge it was not asked for, which some people want and others find abrasive; judge that on your own use, not on a review. Outside live events its web grounding is thinner than ChatGPT’s and its document handling is basic, so treat it as a second opinion and a news window rather than your only research tool. If your X plan already includes it, you have already paid.",
+   "both": "Running both is normal. Keep ChatGPT as the work surface — documents, files, code, anything you will reuse — and keep Grok in a tab for the what-is-happening questions. When they disagree on a fact, the disagreement is the useful output: go find the primary source, because one of them is quoting a post and the other is quoting a page. Do not pay for both on day one; most people find the second subscription gets used twice a week, which is not worth a monthly fee. Start with whichever one your existing accounts already cover and add the other only when you hit a task it visibly cannot do.",
+   "faq": [
+    {
+     "q": "Do I need an X account to use Grok?",
+     "a": "For the free tier, yes — consumer access runs through X, and the paid tiers are X subscription tiers with a standalone option alongside. ChatGPT needs only an OpenAI account, and that one login covers web, desktop, and mobile. If you will not make an X account, this decision is already made."
+    },
+    {
+     "q": "Which one handles long documents better?",
+     "a": "ChatGPT. It accepts PDFs, spreadsheets, and code files with explicit per-file limits, and Projects keep them attached between chats. Grok accepts uploads but has no persistent library, so multi-document work means re-uploading and re-explaining the context every session."
+    },
+    {
+     "q": "Is either one reliable enough to skip checking?",
+     "a": "No. Both will state a wrong number with full confidence, and both cite sources you should open. The working rule is to verify anything that ends up in a document someone else signs: prices, dates, quotes, and API behavior."
+    }
+   ],
+   "updated_at": "2026-10-29"
+  },
+  {
+   "slug": "chatgpt-vs-deepseek",
+   "a": "ChatGPT",
+   "a_slug": "chatgpt",
+   "b": "DeepSeek",
+   "b_slug": "deepseek",
+   "title": "ChatGPT vs DeepSeek: which one to pay for",
+   "description": "ChatGPT vs DeepSeek on free tier, token pricing, long documents, coding, and research — and when the cheap API is the right call.",
+   "verdict": "Pay for ChatGPT if you need one tool that handles files, screenshots, voice, and browsing without surprises. Route bulk work to DeepSeek if cost per call decides whether a feature ships.\n\nDeepSeek publishes its weights, so you can serve the model yourself and stop paying per token — the one argument here that ChatGPT has no answer to.\n\nFor one person sending a few hundred messages a month the price gap is noise; pick on capability, not on the invoice.",
+   "table": [
+    {
+     "label": "Free tier",
+     "a": "Free account with a daily cap on the main model, limited reasoning-mode calls, and uploads included. The cap is revised often, so read it on the day you sign up.",
+     "b": "Web and mobile apps are free with no meaningful daily cap, and the reasoning model is available there. The most generous free tier in this comparison by a distance."
+    },
+    {
+     "label": "Pricing",
+     "a": "Free, a consumer Plus tier, a higher Pro tier, plus separately billed API usage at published per-token rates. Check the official pricing page for current numbers.",
+     "b": "API pricing is the lowest of the major providers per token, with off-peak discounts historically applied to some models. Consumer apps stay free; check the official pricing page."
+    },
+    {
+     "label": "Long documents",
+     "a": "Long context with project persistence: PDFs, spreadsheets, and multi-file code, subject to per-file caps and a total size limit per conversation.",
+     "b": "128K-class context with no project library; uploads are a paste-and-ask flow. Fine for one long file, awkward for a set of related documents you keep coming back to."
+    },
+    {
+     "label": "Coding",
+     "a": "Strong across languages, with an agent mode that executes code and iterates, plus the widest set of third-party editor and IDE integrations.",
+     "b": "Very strong on algorithmic and math-heavy code, and it shows the reasoning so you can find the wrong step yourself. Weaker on repo-scale refactors; you paste files in by hand."
+    },
+    {
+     "label": "Web/research",
+     "a": "Search with citations, plus a deep-research mode that turns many sources into a structured report. The default when the answer has to be sourced.",
+     "b": "Search exists but is the weakest part of the product: thinner results and less consistent citations. Do not pick it for research work."
+    },
+    {
+     "label": "Best for",
+     "a": "Individuals and teams who want a general assistant with multimodal input and a mature tool ecosystem behind it.",
+     "b": "Developers shipping LLM features on a budget, and anyone who wants to self-host for data-control or offline reasons."
+    }
+   ],
+   "when_a": "Choose ChatGPT when the input is not text. A photo of a whiteboard, a scanned invoice, a 40-page PDF, a voice note from a meeting — these are the cases where the ecosystem matters more than the token price, because the cheap API expects you to build that pipeline yourself. It is also the easier sell inside a company: admin controls, data-exclusion settings, retention options, and an enterprise agreement your legal team can actually read, with no jurisdiction argument attached. The product surface is broader too — Projects, connectors, a desktop app, a mobile app that is not an afterthought. If you are buying one seat for one person and you need it working on Monday morning, this is the one that will not cost you a week of setup.",
+   "when_b": "Choose DeepSeek when cost per token is the constraint, or when you need the weights in hand. Its API has been the cheapest credible option among frontier-adjacent models, and off-peak discounts have made batch jobs close to free; if you are running classification over a million rows, that difference is the project. Open weights answer the other objection outright: serve it on your own hardware and no data leaves your network, which is often the only way a regulated buyer says yes. The reasoning model is genuinely good at math and step-by-step logic and shows its work, so a wrong turn is visible. The cost is tooling — no first-party IDE agent, thin multimodal support, a smaller integration surface, and more glue code for you to write and maintain. None of that matters if you are calling it from your own backend behind an API key and a retry wrapper.",
+   "both": "The usual split is DeepSeek for volume, ChatGPT for the last mile. Prototype against the cheap API, then run a sample of the same prompts through ChatGPT; where quality holds, keep the cheap route, and escalate only the calls that fail. Both expose OpenAI-compatible endpoints, so swapping one for the other is usually a base URL and an API key, which makes that comparison cheap to run. Keep the ChatGPT seat for image, document, and voice work, and put anything that repeats a million times on the other side of the line. Do not run both consumer apps daily — that is how you end up with two half-finished threads and no notes.",
+   "faq": [
+    {
+     "q": "Can I run DeepSeek on my own server?",
+     "a": "Yes. The weights are published, so you can serve them on your own GPU or a rented one and no data leaves your network. The catch is that you own the operations: quantization, batching, and uptime become your problem, and a small deployment can cost more per month than the API it replaces."
+    },
+    {
+     "q": "Which is cheaper for a small project?",
+     "a": "DeepSeek’s API, by a wide margin, on published per-token rates — check the official pricing page for current numbers. For a side project making a few thousand calls a month either bill is small; the consumer subscriptions are where the recurring cost actually sits."
+    },
+    {
+     "q": "Does ChatGPT give better answers?",
+     "a": "On images, documents, and tool use, yes, clearly. On pure reasoning and math the gap is small, and DeepSeek’s visible chain of thought makes it easier to catch a bad step. Test both on your own prompts before assuming either way."
+    }
+   ],
+   "updated_at": "2026-10-29"
+  },
+  {
+   "slug": "claude-vs-copilot",
+   "a": "Claude",
+   "a_slug": "claude",
+   "b": "GitHub Copilot",
+   "b_slug": "copilot",
+   "title": "Claude vs Copilot: a chat model or an editor tool",
+   "description": "Claude vs GitHub Copilot on free tier, pricing, long documents, coding, and review — two different tools, one clear decision.",
+   "verdict": "These are not the same category: Copilot is a coding tool bolted into your editor, Claude is an assistant you talk to. Buy Copilot for inline completion and pull-request review inside GitHub; use Claude when you need a model to read a whole problem, write prose, or run an agentic session from a terminal.\n\nIf you write code all day in VS Code or JetBrains and rarely need a chat partner, Copilot alone covers you.\n\nIf you write more prose than code, or your code lives in a repo nobody documented, Claude is the better spend.",
+   "table": [
+    {
+     "label": "Free tier",
+     "a": "Free tier with a daily message cap on the mid-tier model, web and mobile included, plus limited use of the terminal coding agent. Enough to evaluate, not to work in.",
+     "b": "Free plan with a monthly cap on completions and chat requests in the editor, and a small allowance of premium model requests. Fine for a hobby repo; a full workday burns it."
+    },
+    {
+     "label": "Pricing",
+     "a": "Free, a consumer Pro tier, and a higher Max tier built for heavy agent use, with API usage billed separately per token. Check the official pricing page.",
+     "b": "Free, an individual Pro tier, then per-seat Business and Enterprise plans with admin, audit, and policy controls. Seat pricing depends on the org agreement; check the official pricing page."
+    },
+    {
+     "label": "Long documents",
+     "a": "200K-token context class, with 1M available on some models, plus Projects for standing reference material. Hand it a slice of a codebase or a contract and ask narrow questions.",
+     "b": "Context is per request and scoped to open files plus whatever you attach. There is no document workspace, because reading long documents is not what the product does."
+    },
+    {
+     "label": "Coding",
+     "a": "Strong at multi-file reasoning, refactors, and explaining unfamiliar code; the terminal agent reads a repo, plans, edits, and runs tests. No autocomplete — you drive it.",
+     "b": "The reference implementation of inline completion and next-edit prediction, plus chat in the IDE, a CLI, and automated review on pull requests. Paid plans let you pick the model vendor."
+    },
+    {
+     "label": "Web/research",
+     "a": "Search exists in the consumer app but is not the focus, and the coding agent does not browse by default. Research means pasting sources in yourself.",
+     "b": "Almost none. It answers about code and your repository; general research answers are thin and there is no multi-source crawl. Keep a separate research tool."
+    },
+    {
+     "label": "Best for",
+     "a": "Work that is ambiguous: specs, architecture, prose, and debugging something nobody wrote down. Also the better fit for non-engineers who need a thinking partner.",
+     "b": "Teams already on GitHub who want faster routine edits and automated review on every pull request without changing their workflow."
+    }
+   ],
+   "when_a": "Reach for Claude when the task needs judgment rather than keystrokes: reading an unfamiliar service, writing the design doc that precedes the code, turning a vague bug report into a failing test, or arguing through two architectures before you commit. The long context is the practical part — drop in the relevant modules and a log file, then ask why the retry loop doubles requests, which is a question completion cannot answer. Its terminal agent suits people who already live in a shell and would rather the model run the tests than describe them in prose. It is also the better writing tool by a clear margin, which matters the moment your job includes RFCs, documentation, or customer-facing copy, and it holds up on a document you have to defend in a review.",
+   "when_b": "Reach for Copilot when the bottleneck is typing, not thinking. Tab-completion that guesses the next edit, a chat panel that already knows the open file, and review comments posted on the pull request before a human opens it — that is a workflow, not a chat window, and it removes most of the drudgery in a routine diff. Business and Enterprise plans add policy controls, audit logs, and content exclusion so private repositories stay out of suggestions, which is what usually gets it approved internally. If your team is already on GitHub and the ask is to ship faster without changing how anyone works, this is the low-friction answer. For boilerplate, test scaffolding, and mechanical refactors it is simply faster than describing the change to a chat model.",
+   "both": "They do different jobs, so the split is easy: Copilot inside the editor for the line you are typing, Claude for the problem you cannot state in one sentence. A workable loop is to let Copilot carry routine edits and tests, then hand the resulting diff to Claude when something behaves unexpectedly and ask for a read of the whole change — that is where the long context earns its keep. Keep the two separate in your head as well: completion output is usually right and locally plausible, while chat output is usually coherent but may be wrong two files away. On cost, one Copilot seat plus one Claude Pro seat is roughly the floor for a working developer; if you must cut one, cut the chat subscription, since completion is the habit you will miss.",
+   "faq": [
+    {
+     "q": "Can Claude replace Copilot for coding?",
+     "a": "Not for typing-speed work. Claude has no inline completion in your editor, so you lose the tab-to-accept loop entirely. For reasoning about code it is stronger, and its terminal agent edits files and runs tests, so most people end up paying for both rather than choosing."
+    },
+    {
+     "q": "Does Copilot work outside GitHub?",
+     "a": "The editor extension works with any git remote, including GitLab and Bitbucket. Automated pull-request review and the github.com chat surface are GitHub-only, so on another host you keep completion and IDE chat but lose the review step."
+    },
+    {
+     "q": "Which is better for a non-programmer?",
+     "a": "Claude. Copilot assumes an editor, a repository, and that you know what a diff is. Claude takes a plain question, a document, or a pasted table and answers in prose you can use."
+    }
+   ],
+   "updated_at": "2026-10-29"
+  },
+  {
+   "slug": "gemini-vs-perplexity",
+   "a": "Gemini",
+   "a_slug": "gemini",
+   "b": "Perplexity",
+   "b_slug": "perplexity",
+   "title": "Gemini vs Perplexity: answer engine or assistant",
+   "description": "Gemini vs Perplexity on free tier, pricing, long documents, research, and citations — an answer engine against a full assistant.",
+   "verdict": "Perplexity is an answer engine — you ask, it reads the web, and it returns a short answer with the sources attached — while Gemini is an assistant that drafts, edits your own files, holds a very long context, and treats search as one feature among many.\n\nChoose Perplexity when the deliverable is a fact someone will check. Choose Gemini when the deliverable is something you produce from material you already have.\n\nThe overlap is smaller than the marketing suggests, and most people who do research for a living end up with both.",
+   "table": [
+    {
+     "label": "Free tier",
+     "a": "Free tier with the base model, a daily prompt cap, and limited Deep Research runs. The Workspace side panels generally need a paid plan.",
+     "b": "Free tier with a daily cap on Pro searches and unlimited basic searches; the standard answer engine and file uploads work without paying anything."
+    },
+    {
+     "label": "Pricing",
+     "a": "Bundled into Google One AI plans for consumers, then Workspace Business and Enterprise per seat. If you already pay for storage, the AI tier is an add-on, not a new bill.",
+     "b": "Free, a Pro tier, and a higher Max tier for heavy research and model choice, plus API billing on separate rates. Check the official pricing page for both."
+    },
+    {
+     "label": "Long documents",
+     "a": "Very long context on the Pro models, enough for whole books or a code drop, with native access to your Drive and Docs. The clearest win in this comparison.",
+     "b": "Uploads PDFs and files per thread, and Spaces hold a source set you can keep querying. Generous but thread-scoped — there is no document workspace to return to."
+    },
+    {
+     "label": "Coding",
+     "a": "Reasonable generation and explanation, and long context helps with large files; CLI and IDE integrations exist but are less mature than Copilot or Claude Code.",
+     "b": "Can write and explain code and will search the error message for you, but has no repo awareness, no editor integration, and no agent loop. Not a coding tool."
+    },
+    {
+     "label": "Web/research",
+     "a": "Search grounding is available and good, and Deep Research runs a multi-step crawl, but answers arrive inside a chat that keeps talking. Citations are present, less prominent.",
+     "b": "The core product. Claims are footnoted, the answer is short by design, and Deep Research returns a multi-source report with a readable source list."
+    },
+    {
+     "label": "Best for",
+     "a": "People already inside Google’s stack who want drafting, file understanding, and Workspace edits in one place.",
+     "b": "Analysts, students, and journalists — anyone whose output is a claim that has to come with a source."
+    }
+   ],
+   "when_a": "Use Gemini when the material is yours. Drop in a long PDF, a folder of meeting notes, or a spreadsheet, and ask questions across all of it; with Drive connected you are not uploading anything at all, which is the part that changes a daily habit. The Workspace side panels — drafting in Docs, summarizing a mail thread, building a formula — are the thing Perplexity cannot imitate, because here the assistant and the document are the same product. It is also the better general assistant for tasks that are not questions: rewrite this, translate this, turn these notes into an agenda, compare these two quotes. Search grounding exists, so you are not giving up citations, only their prominence on the page.",
+   "when_b": "Use Perplexity when you would otherwise open ten tabs. Price checks, vendor comparisons, what changed in a release, who said what in an interview — the product is shaped so the answer arrives in a few lines with numbered sources you can click, and because the default is short it is the faster read on a phone. Spaces help when a question recurs: keep the source set for a market or a competitor and re-ask next month without rebuilding the reading list. What it will not do is write your document; ask for 800 words and you get an outline with citations, which is exactly right if an outline is what you wanted. For a claim that has to survive a fact-check, this is the faster path to the primary source.",
+   "both": "The sensible pairing is Perplexity for the outside world and Gemini for the inside. Research a topic in Perplexity until the sources agree, keep the citations, then move to Gemini to write the thing with your own files in context. Where they overlap — a plain factual question — either works, so do not spend time choosing between them. One caveat worth stating plainly: both will occasionally summarize a source into something the source did not say, and a footnote is not proof. Open the link on anything that matters, and treat the citation list as a reading list rather than a verdict. That single habit removes most of the risk people worry about with either product.",
+   "faq": [
+    {
+     "q": "Does Perplexity use its own models?",
+     "a": "It routes across several vendors’ models plus its own Sonar models, and paid plans let you pick. Answer style therefore shifts with the model, while citation behavior is the constant. That is why the product feels different month to month without changing shape."
+    },
+    {
+     "q": "Can Gemini do what Perplexity does?",
+     "a": "Mostly, for single questions: Gemini grounds answers in Google Search, shows sources, and Deep Research produces a sourced report. What you lose is the answer-first layout and the tight source list. What you gain is everything else the assistant does."
+    },
+    {
+     "q": "Which should I use for work research?",
+     "a": "Perplexity, if the output is a claim someone will check. Gemini, if the output is a document built from your own files. Plenty of teams pay for one Perplexity seat per team and use Gemini through a Google plan they already have."
+    }
+   ],
+   "updated_at": "2026-10-29"
+  }
+ ]
+}

@@ -1,0 +1,244 @@
+{
+  "compare": [
+    {
+      "slug": "chatgpt-vs-claude",
+      "a": "ChatGPT",
+      "a_slug": "chatgpt",
+      "b": "Claude",
+      "b_slug": "claude",
+      "title": "ChatGPT vs Claude: Which One Should You Pay For?",
+      "description": "Both cost $20 a month and both write code. The split is simple: Claude for long documents and terminal agents, ChatGPT for images, voice and breadth.",
+      "verdict": "Pick Claude if most of your working day is long documents, careful review, and code you run from a terminal. Pick ChatGPT if you want one $20 subscription that also covers image generation, voice, and a broad set of connectors.\n\nPrice is not the tiebreaker: both main plans are $20 a month. Claude Pro buys at least five times the free usage per five-hour session plus Claude Code in the terminal. ChatGPT Plus buys image generation, a more developed mobile and voice experience, and more third-party integrations.\n\nIf you already write code for a living, check what your employer pays for before adding a third subscription. A team seat may already cover the coding half.",
+      "table": [
+        {
+          "label": "Free tier",
+          "a": "Chat with the newest model under daily caps; image generation and file uploads limited",
+          "b": "Sonnet and Haiku only, capped per five-hour window; no Opus, no Projects"
+        },
+        {
+          "label": "Pricing",
+          "a": "Plus $20/month; higher tiers on the official pricing page",
+          "b": "Pro $20/month or $17/month billed annually; Max 5x $100, Max 20x $200"
+        },
+        {
+          "label": "Long documents",
+          "a": "Upload and summarise works; past a few dozen pages you get better results working in sections",
+          "b": "The stronger of the two for 40-100 page PDFs read in one pass; Projects keep the source files across sessions"
+        },
+        {
+          "label": "Coding",
+          "a": "Good at writing and explaining code in chat; no terminal agent on the base plan",
+          "b": "Claude Code ships with Pro; it reads the repo, runs tests, and opens diffs, sharing one quota with chat"
+        },
+        {
+          "label": "Web/research",
+          "a": "Browsing, search-style answers with links, and the widest set of connectors and prebuilt tools",
+          "b": "Research mode returns cited reports; browsing exists but is not the default way you use it"
+        },
+        {
+          "label": "Best for",
+          "a": "Mixed days: images, voice, quick answers, one subscription for everything",
+          "b": "Writing, contract and spec review, refactors, agentic coding"
+        }
+      ],
+      "when_a": "Choose ChatGPT when your work is wide rather than deep. It is the better default for a mixed day: turn a screenshot into a table, draft a reply, explain a stack trace, then generate a diagram for the document you are writing. Image generation and voice conversation are the two features people actually miss when they move away, and the connector ecosystem means somebody has usually already built the tool you need. It is also the easier one to hand to a non-engineer, because the defaults are opinionated and you rarely have to choose a model yourself.\n\nThe cost shows up on long inputs. Once a document runs past a few dozen pages, results get better when you split it into sections and keep your own running summary. Long refactors need re-prompting to stay on the rails, and the chat-first interface colours how you work: you describe the change, paste the code back, and iterate, rather than watching an agent work in your checkout.",
+      "when_b": "Choose Claude when the work is one long artifact you have to get right: a sixty-page contract, a migration plan, a chapter, a review of a large diff. Uploading the files and iterating inside a Project keeps the source material in context across days instead of re-pasting it every morning, and the prose keeps its own structure rather than collapsing into bullet lists. Pro also includes Claude Code, so the same subscription covers terminal work: it can read the repository, run the test suite, and propose a patch.\n\nThe catch is the shared quota. Chat, desktop, mobile and Claude Code all draw from one five-hour pool with a weekly ceiling, so a heavy afternoon of agent work eats the allowance you wanted for writing later. If you hit the cap several times a week on paid work, Max 5x at $100 a month is the intended next step, not a second subscription.",
+      "both": "Plenty of engineers keep both and treat them as different tools rather than rivals: Claude for the document or the repository, ChatGPT for the quick lookup, the image, the voice note on a walk. At $40 a month combined that only makes sense if you would otherwise lose more than an hour a week working around the missing half. A cheaper pattern is one paid plan plus the free tier of the other, since both free tiers handle short sessions fine.\n\nAudit after a month. If you cannot point to work one of them did that the other could not have done, drop it and keep the $20. The honest answer for most people is one paid plan, chosen by the job they do most, and a free account on the other side for the occasional odd task.",
+      "faq": [
+        {
+          "q": "Is Claude better than ChatGPT for coding?",
+          "a": "For multi-file changes and anything you want run in a terminal, Claude Pro is the easier starting point because Claude Code is included. ChatGPT is fine for single-file debugging and explaining errors in conversation. Neither gives you inline completions in your editor, so most developers pair one of them with Copilot."
+        },
+        {
+          "q": "Do ChatGPT and Claude cost the same?",
+          "a": "The main paid plans are both $20 a month, and Claude Pro drops to about $17 a month if you pay yearly. Both vendors sell tiers above that with higher usage ceilings. Check the official pricing page before budgeting, because what each tier includes moves more often than the sticker price."
+        },
+        {
+          "q": "Can I do real work on the free tiers?",
+          "a": "Yes for short sessions. Both free tiers cap usage per window and keep the newest models behind the paid plan, so a full working day will hit the ceiling. Use the free tiers to find out which interface you reach for first, then pay for that one."
+        }
+      ],
+      "updated_at": "2026-10-29"
+    },
+    {
+      "slug": "chatgpt-vs-gemini",
+      "a": "ChatGPT",
+      "a_slug": "chatgpt",
+      "b": "Gemini",
+      "b_slug": "gemini",
+      "title": "ChatGPT vs Gemini: Which Fits Your Workflow?",
+      "description": "Same price, different homes. Gemini lives inside Gmail and Docs and takes huge inputs; ChatGPT is the better standalone assistant. How to decide.",
+      "verdict": "Pick Gemini if your work already lives in Google's apps, or if you regularly feed in inputs so large they have to stay in one context. Pick ChatGPT if you want the stronger standalone assistant and are not tied to a Google account.\n\nThe prices line up almost exactly: ChatGPT Plus is $20 a month, Google AI Pro is $19.99. The differences that matter are where the assistant sits and how much it can hold at once. Gemini runs inside Gmail, Docs, Sheets and Meet, and Pro-class models take very large inputs in a single pass. ChatGPT is a separate app you open, with broader third-party connectors and a more developed voice and image side.\n\nIf your team already pays for Workspace, start with Gemini. If you pay for AI out of your own pocket and use a mix of tools, start with ChatGPT.",
+      "table": [
+        {
+          "label": "Free tier",
+          "a": "Chat with the newest model under daily caps; features like image generation and deep research limited",
+          "b": "Flash-Lite-class models for free users since the October 2026 change; Pro-class models need Google AI Pro"
+        },
+        {
+          "label": "Pricing",
+          "a": "Plus $20/month; higher tiers on the official pricing page",
+          "b": "Google AI Pro $19.99/month; the top tier is listed on the official pricing page"
+        },
+        {
+          "label": "Long documents",
+          "a": "Upload and summarise, but very large inputs are better split into sections",
+          "b": "Up to 1M tokens of context on Pro-class models, so a whole codebase or a year of tickets can go in at once"
+        },
+        {
+          "label": "Coding",
+          "a": "Strong at writing and debugging code in chat, including running snippets; no editor integration",
+          "b": "Competent at code in chat, and better integrated with Google's editor and CLI tooling; less often the primary coding tool"
+        },
+        {
+          "label": "Web/research",
+          "a": "Browsing plus search-style answers with links, and the larger connector ecosystem",
+          "b": "Grounded in Google Search by default; deep research produces cited multi-page reports"
+        },
+        {
+          "label": "Best for",
+          "a": "Standalone use: images, voice, third-party tools, mixed tasks",
+          "b": "Workspace users, very large inputs, search-grounded answers"
+        }
+      ],
+      "when_a": "Choose ChatGPT when you want one app that does a bit of everything and does not care which browser or mail provider you use. The image side is the practical difference: mockups, diagrams, and edited screenshots are a normal part of the workflow rather than an experiment. Voice mode is the other one, and it is the feature people end up using in the car or while walking, where a Google-integrated assistant is no help.\n\nConnectors matter if your data lives outside Google. ChatGPT has the wider catalogue of third-party integrations, so pointing it at a repository, a Notion workspace, or a ticketing system is usually a matter of enabling something. New tools and experiments also tend to land here first, which suits people who like trying things before they are polished.\n\nThe tradeoff is context. Very large inputs get awkward, and you will spend more time splitting documents and re-stating constraints than you would on a 1M-token window.",
+      "when_b": "Choose Gemini when the answer needs to land where the work already is. Asking it to summarise a thread, draft a Doc from a Sheet, or pull numbers out of Gmail saves the copy-paste step entirely, and that step is where most of the friction in AI assistants actually lives.\n\nThe context window is the second reason. A 1M-token window on Pro-class models means you can drop in an entire specification set, a long log, or a whole small codebase and ask one question instead of twenty. It also changes how you prompt: instead of compressing a spec to fit, you attach it and ask about clause 14, which removes a dozen chances to lose the detail that mattered.\n\nUnderstand the free tier before you commit. Free users were moved onto Flash-Lite-class models, so the free experience is a lighter model with tighter limits. That is fine for testing the interface and poor for judging what the paid plan feels like. If your evaluation matters, spend one month on Google AI Pro first.",
+      "both": "The overlap here is smaller than it looks, because the two are used in different places. Gemini earns its keep inside Workspace while you are already writing a document; ChatGPT earns its keep when you open a tab to think something through. Running both is common in teams that use Google Workspace and also want a general assistant, usually because the company buys one and the engineers buy the other.\n\nFor an individual, paying twice is rarely justified. Pick the one attached to the apps you use for eight hours a day, keep the other on a free account for the occasional image or second opinion, and revisit when either vendor changes what the free tier includes. Prices have been stable; the free tiers have not been.",
+      "faq": [
+        {
+          "q": "Is Gemini free or paid?",
+          "a": "Both. There is a free tier, but since October 2026 free users mostly get Flash-Lite-class models. Pro-class models, deeper research, and the Workspace integration sit behind Google AI Pro at $19.99 a month."
+        },
+        {
+          "q": "Which one handles bigger documents?",
+          "a": "Gemini, by a wide margin, because Pro-class models accept up to 1M tokens in one request. ChatGPT can read long files but you get better answers working in sections. For a 300-page input that must stay whole, Gemini is the practical choice."
+        },
+        {
+          "q": "Do I need Google Workspace to use Gemini?",
+          "a": "No. You can use it as a standalone chat app with a normal Google account. The Workspace integration, which is the main reason to pick it over ChatGPT, only pays off if your mail and documents are already there."
+        }
+      ],
+      "updated_at": "2026-10-29"
+    },
+    {
+      "slug": "chatgpt-vs-copilot",
+      "a": "ChatGPT",
+      "a_slug": "chatgpt",
+      "b": "GitHub Copilot",
+      "b_slug": "copilot",
+      "title": "ChatGPT vs Copilot: Chatbot or IDE Tool?",
+      "description": "One is an assistant you open, the other sits in your editor. Copilot saves keystrokes, ChatGPT saves research time. Why most engineers end up with both.",
+      "verdict": "These are not substitutes, and treating them as one choice is how people waste money. Copilot is an editor and GitHub layer: inline completions, chat beside the file, pull-request review, and a CLI, billed per seat with a monthly credit allowance. ChatGPT is a general assistant that also writes code well.\n\nIf you already have a chat subscription, adding Copilot Pro at $10 a month buys the thing chat cannot do: suggestions in the file while you type. If you have Copilot and are wondering whether to drop ChatGPT, do not: Copilot will not summarise a PDF, draft a design doc, or explain an error message from a library you have not opened yet.\n\nThe usual setup is Copilot for keystrokes and one $20 chat plan for everything else.",
+      "table": [
+        {
+          "label": "Free tier",
+          "a": "Free chat with caps on the newest model and on features like image generation",
+          "b": "Free plan with limited completions and a small monthly AI credit allowance"
+        },
+        {
+          "label": "Pricing",
+          "a": "Plus $20/month; higher tiers on the official pricing page",
+          "b": "Pro $10/month, Pro+ $39, Max $100; Business $19/user, Enterprise $39/user"
+        },
+        {
+          "label": "Long documents",
+          "a": "Upload and summarise long files, contracts, and reports in chat",
+          "b": "Not built for it; the context is your open files, the selection, and the repo"
+        },
+        {
+          "label": "Coding",
+          "a": "Writes, explains and debugs code in conversation; no completions in your editor",
+          "b": "Inline completions, next-edit suggestions, agent mode, PR review and a CLI; on paid plans completions do not spend credits"
+        },
+        {
+          "label": "Web/research",
+          "a": "Browsing, search-style answers, and a large connector catalogue",
+          "b": "No general web research; it searches your repository, issues, and indexed docs"
+        },
+        {
+          "label": "Best for",
+          "a": "Writing, research, design discussion, anything outside the editor",
+          "b": "Day-to-day code in the editor, repetitive edits, PR triage"
+        }
+      ],
+      "when_a": "Choose ChatGPT when the question is not about a file you have open. Design discussions, comparing two libraries, reading an RFC, turning meeting notes into a task list, debugging something you can only describe in words: all of that is chat work, and an editor tool is the wrong shape for it. The same applies to anything long. Dropping a 40-page vendor PDF into a chat and asking what the termination clause actually says is a five-minute job; in an IDE assistant it is not a job at all.\n\nIt is also the better place to learn. Asking why a pattern is wrong, then following up three times, works better in a conversation than in a completion popup, and pasting a stack trace gets you an explanation rather than a guess at the next line. What you give up is proximity: every snippet has to be copied into the editor, so short mechanical edits are slower than they would be with a completion.",
+      "when_b": "Choose Copilot when the bottleneck is typing, not thinking. Renaming across a module, writing the eighth test in a file that already has seven, converting a callback chain into async, fixing the same lint error in twelve places: that is where completions and next-edit suggestions earn their $10. Chat beside the file helps too, because the editor already knows which file and which branch you mean, so you skip the context-setting paragraph.\n\nCheck the billing model before you plan a budget. Since June 2026 Copilot runs on AI Credits billed by token consumption instead of fixed premium requests, so the flat fee buys a credit allowance rather than a request count. Completions and next-edit suggestions stay outside the meter on paid plans, but agent sessions, premium model calls, code review, and the CLI do consume credits. Heavy agent users can blow past the allowance and land on overage rates.",
+      "both": "Most working engineers run Copilot plus one chat subscription, and the split is stable: completions while typing, conversation when stuck. Copilot's paid plans let you choose among several models including Anthropic's and OpenAI's, so the editor tool is not locked to one vendor, and switching model for a hard refactor is a dropdown rather than a new subscription.\n\nIf you can only pay for one, pay for Copilot when your job is writing code eight hours a day, and pay for ChatGPT when your job is mostly reading, deciding, and writing about code. The second group is larger than it admits, and a $20 chat plan is the better buy for them.",
+      "faq": [
+        {
+          "q": "Can Copilot replace ChatGPT?",
+          "a": "No. Copilot is scoped to your editor and repository, so it has nothing useful to say about a PDF, a vendor contract, or a general research question. It also knows nothing about your branch or the failing test unless you point it at them. It replaces the completion half of your workflow, not the conversation half."
+        },
+        {
+          "q": "Is Copilot still billed by premium requests?",
+          "a": "No. GitHub moved every plan to usage-based AI Credits in June 2026, billed by tokens at each model's rate. Code completions and next-edit suggestions stay free of credits on paid plans; agent sessions, premium models and code review consume them. Annual subscribers stayed on the old request terms until renewal."
+        },
+        {
+          "q": "What does the cheapest useful setup cost?",
+          "a": "Copilot Pro is $10 a month and ChatGPT Plus is $20, so $30 covers both halves. If that is too much, keep Copilot Pro and use a free chat tier for research, or the reverse if you code less than you write. A trial week on the free tiers will tell you which half you actually use."
+        }
+      ],
+      "updated_at": "2026-10-29"
+    },
+    {
+      "slug": "claude-vs-gemini",
+      "a": "Claude",
+      "a_slug": "claude",
+      "b": "Gemini",
+      "b_slug": "gemini",
+      "title": "Claude vs Gemini: Long Docs or Big Context?",
+      "description": "Claude writes better prose and ships a terminal coding agent. Gemini swallows 1M tokens and lives in Gmail. Pick by the shape of your input.",
+      "verdict": "Pick Claude for long-form writing, contract and spec review, and coding you drive from a terminal. Pick Gemini if you need one enormous input read in a single pass, or if you want the assistant wired into Gmail, Docs and Meet.\n\nClaude Pro is $20 a month, or about $17 if you pay yearly, and it includes Claude Code. Google AI Pro is $19.99 and includes Gemini inside Workspace plus the much larger context window. Neither is meaningfully cheaper, so decide on the shape of the input rather than the invoice.\n\nTwenty to eighty pages of prose: Claude. Four hundred pages of mixed tables, logs and PDFs: Gemini.",
+      "table": [
+        {
+          "label": "Free tier",
+          "a": "Sonnet and Haiku under a five-hour cap; no Opus, no Projects",
+          "b": "Flash-Lite-class models for free users since October 2026; Pro-class models need Google AI Pro"
+        },
+        {
+          "label": "Pricing",
+          "a": "Pro $20/month or $17/month billed annually; Max 5x $100, Max 20x $200",
+          "b": "Google AI Pro $19.99/month; the top tier is listed on the official pricing page"
+        },
+        {
+          "label": "Long documents",
+          "a": "Upload PDFs and iterate inside a Project; strongest at holding an argument and its structure",
+          "b": "Up to 1M tokens of context on Pro-class models; strongest at very large, messy inputs"
+        },
+        {
+          "label": "Coding",
+          "a": "Claude Code is included: reads the repo, runs tests, opens diffs, shares one quota with chat",
+          "b": "Code help through Google's editor and CLI tooling; capable in chat, less often the daily driver"
+        },
+        {
+          "label": "Web/research",
+          "a": "Research mode with citations; browsing available but secondary",
+          "b": "Search-grounded by default, with deep research reports and Workspace data at hand"
+        },
+        {
+          "label": "Best for",
+          "a": "Writing, review, refactors, agentic coding from the terminal",
+          "b": "Workspace integration, very large contexts, search-grounded answers"
+        }
+      ],
+      "when_b": "Choose Gemini when the input is bigger than a person would read. A year of support tickets, a monorepo, a 300-page standards document full of tables: these fit in a 1M-token window, and asking one question across all of it beats stitching summaries together. The Workspace side is the quieter advantage. Summarising a mail thread, drafting a Doc from a Sheet, or pulling figures out of a spreadsheet without copy-paste is a daily saving if that is where your work happens.\n\nThe tradeoff is feel. Prose from Gemini tends to need more editing before it ships, and the free tier is not representative: free users sit on Flash-Lite-class models since October 2026, so evaluating Gemini for free tells you almost nothing about the paid experience. One month of Google AI Pro, run against your own documents, is the honest test.",
+      "when_a": "Choose Claude when the output quality is the point. Long drafts keep their structure instead of turning into bullet lists, edits hold their tone across a rewrite, and a review of a 200-line diff comes back with the three things that will actually break rather than twenty stylistic notes. Uploading the source files into a Project means the same contract or spec is still there next week without re-reading it into the chat, and the model has already seen your earlier objections to the draft.\n\nClaude Code is the other half of the $20. It runs in the terminal, reads the repository, runs the tests and shows you a diff, which is a different working style from pasting snippets into a browser tab: you describe the change, it edits across files, you review. The limit is shared: chat, mobile and Claude Code all pull from one five-hour pool with a weekly ceiling. Heavy agent days leave less room for writing, and Max 5x at $100 a month exists for exactly that pattern.",
+      "both": "Using both is defensible when you write and code in the same week: Claude for the document and the patch, Gemini for the big reference dump and anything that starts in Gmail. The contexts are different enough that neither feels redundant, and neither vendor is likely to hand the other's advantage first. The cost is real, though, and subscriptions outlive the intentions behind them.\n\nFor one person paying out of pocket, $40 a month is hard to justify on overlap alone. Pick by input shape, keep the free tier of the other for the odd large file, and check the pricing pages before renewing: what each tier includes changed twice in 2026 even though the headline prices did not.",
+      "faq": [
+        {
+          "q": "Which handles longer documents, Claude or Gemini?",
+          "a": "Gemini, on raw size: Pro-class models accept up to 1M tokens in one request, while Claude works best when you keep inputs to a document or a repository. Claude tends to do more with a 60-page contract. For a 400-page dump, or a question that spans an entire codebase, Gemini is the only practical option of the two."
+        },
+        {
+          "q": "Is Claude Pro or Google AI Pro the better deal?",
+          "a": "They cost $19.99 and $20, so the deal depends on use. Claude Pro adds a terminal coding agent; Google AI Pro adds Workspace integration and the larger context window. Count which of those you would touch on a normal Tuesday, and if the answer is both, expect to pay $40."
+        },
+        {
+          "q": "Can Claude work inside Google Workspace?",
+          "a": "Claude Pro includes integrations for Chrome and Microsoft 365, but its home is its own app and the terminal. That is a plugin relationship rather than the same experience as Gemini sitting inside Docs and Gmail. If your day starts in Gmail, that difference decides it."
+        }
+      ],
+      "updated_at": "2026-10-29"
+    }
+  ]
+}
